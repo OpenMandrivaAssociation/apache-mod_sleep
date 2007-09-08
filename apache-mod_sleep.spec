@@ -6,7 +6,7 @@
 Summary:	Mod_sleep is a DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	2.1
-Release:	%mkrel 4
+Release:	%mkrel 5
 Group:		System/Servers
 License:	BSD-style
 URL:		http://www.snert.com/Software/mod_sleep/index.shtml
@@ -20,8 +20,6 @@ Requires:	apache-conf >= 2.2.0
 Requires:	apache >= 2.2.0
 BuildRequires:	apache-devel >= 2.2.0
 BuildRequires:	file
-Provides:	apache2-mod_sleep
-Obsoletes:	apache2-mod_sleep
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
