@@ -6,7 +6,7 @@
 Summary:	DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	2.1
-Release:	15
+Release:	16
 Group:		System/Servers
 License:	BSD-style
 URL:		http://www.snert.com/Software/mod_sleep/index.shtml
