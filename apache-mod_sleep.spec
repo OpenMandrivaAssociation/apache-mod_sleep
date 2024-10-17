@@ -9,7 +9,7 @@ Version:	2.1
 Release:	16
 Group:		System/Servers
 License:	BSD-style
-URL:		http://www.snert.com/Software/mod_sleep/index.shtml
+URL:		https://www.snert.com/Software/mod_sleep/index.shtml
 Source0:	mod_sleep201.tar.bz2
 Source1:	%{mod_conf}.bz2
 Requires(pre): rpm-helper
